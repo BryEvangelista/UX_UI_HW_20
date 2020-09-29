@@ -1,0 +1,173 @@
+h1, h2, h3 , h4, h5, h6 {
+    font-family: 'Kameron', sans-serif;
+  }
+
+h2 {
+    font-weight: 800;
+    color: #6A6A6B;
+    margin: 50px;
+}
+h1 {
+    font-weight: 800;
+    color: #ffffff;
+    margin: 0px;
+}
+p {
+    font-size: 18px;
+    font-family: 'Kameron', sans-serif;
+}
+.customNav {
+    position: fixed;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.9) !important;
+    padding: 50px 100px !important;
+    background-size: cover;
+    z-index: 10;
+    
+    
+  }
+
+  .customNav a {
+    color: black !important;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    letter-spacing: 0.25em;
+  }
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+  }
+  .navbar-brand img {
+    padding: 15px;
+    width: 100%;
+  }
+  .nav-item {
+    margin: 0px 15px;
+  }
+  /* Move down content because we have a fixed navbar that is 3.5rem tall 
+body {
+    padding-top: 3.5rem;
+  }*/
+  
+  .jumbotron {
+    
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: transparent !important;
+    height: 600px;
+    height: calc(100vh);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px !important;
+    padding-top: 100px !important;
+    padding-bottom: 0px !important;
+    flex-direction: column;
+    position: 50px -50px !important;
+  }
+  .img-fluid {
+      max-width: 100%;
+      height: auto;
+  }
+
+  /* Cards */
+.content {
+    padding: 0px 300px;
+
+  }
+  .sectionHeading {
+    text-align: center;
+    font-size: 36px;
+   
+    
+
+    
+  }
+  .showsNear  {
+    padding: 0px 30px 30px 30px;
+  }
+  .cardContainer {
+    text-align: center;
+  }
+  
+  /* Content */
+  
+  .imageContainer img {
+    width: 100%;
+  }
+  .imageContainer {
+    padding: 50px;
+  }
+  .valueProp {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .card {
+    border: none !important;
+  }
+  .bodyParagraphText {
+      text-align: center;
+      padding: 0px 300px;
+      margin-bottom: 100px;
+  }
+  .bodyParagraphTextLeft {
+    text-align: left;
+    padding: 0px 200px;
+    margin: 100px 120px 0px 120px;
+}
+  .card-text-tools {
+      text-align: left; 
+      padding-left: 80px;
+  }
+  .progress-bar {
+    display: flex;
+    justify-content: center;
+
+}
+.downArrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px;
+
+}
+
+.hifi {
+   border-radius: 25px;
+}
+
+.green {
+    background-color: #0DC16A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Footer */
+.emailContain {
+    background-color: #19B07B ;
+    background-image: url(../images/texture.svg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+  }
+  
+  /* Footer form */
+  form {
+    width: 500px;
+    margin: 35px auto;
+    padding: 45px;
+    border: 1px solid #F2F2F2;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1);
+    background-color: white;
+  }
