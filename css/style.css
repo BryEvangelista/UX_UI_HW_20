@@ -20,7 +20,7 @@ p {
     position: fixed;
     width: 100%;
     background: rgba(255, 255, 255, 0.9) !important;
-    padding: 50px 100px !important;
+    padding: 25px 100px !important;
     background-size: cover;
     z-index: 10;
     
@@ -132,7 +132,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 100px 0px;
+    padding: 50px 0px;
 
 }
 
@@ -171,3 +171,20 @@ body {
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1);
     background-color: white;
   }
+
+  .footerContain {
+    background-color: #000000;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 150px;
+  }
+  .pad {
+      padding: 0px 220px 0px 0px;
+  }
+  .pad2 {
+    padding: 0px 0px 0px 200px;
+}
